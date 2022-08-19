@@ -11,6 +11,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      {/* 
+      # Taking all from Layout directory
+      <Navbar />  
+      <Header />
+      <About />
+      <Projects /> or <Certifications /> or <Experience />
+      <Highlights />
+      <Footer />
+        */}
     </div>
   )
 }
