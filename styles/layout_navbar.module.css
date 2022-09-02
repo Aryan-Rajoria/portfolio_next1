@@ -1,0 +1,73 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: var(--navbar);
+}
+
+.div-logo {
+    position: relative;
+}
+
+.logo {
+    height: 45px;
+    margin: 2px 0 0 0;
+}
+
+.brand {
+    padding: 0.5em;
+    margin-top: 0.75em;
+}
+
+.inline-ele {
+    display: inline;
+}
+
+.menu {
+    color: var(--navbar-text);
+}
+
+ol {
+    overflow: hidden;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+ol li {
+    display: inline-block;
+    padding: 0.5em;
+    transition: all 0.3s ease;
+}
+
+#resume {
+    margin-left: 1.5rem;
+    /* background-color: var(--accent); */
+    color: var(--accent);
+    border: 2px solid var(--accent);
+}
+#resume:hover {
+    background-color: var(--accent);
+    color: #fff;
+    border: 2px solid var(--accent);
+}
+
+li.nav-hover:hover {
+    background-color: var(--highlight);
+    color: #fff;
+}
+
+li.nav-hover a:hover {
+    color: #fff;
+}
+
+ol.menu a {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+a:link {
+    color: var(--navbar-text);
+    text-decoration: none;
+}
+a:visited {
+    color: var(--navbar-text);
+}
