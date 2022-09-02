@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.header_content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.header-p {
+    margin: 20px 0 0 0;
+    color: var(--highlight);
+}
+.header-h1 {
+    margin: 0;
+    /* font-size: 3rem; */
+    font-size: clamp(40px, 8vw, 80px);
+    color: var(--accent);
+}
+.header-h2 {
+    margin: 0;
+}
+.header-h3 {
+    font-size: smaller;
+    margin: 0;
+    font-weight: 500;
+}
